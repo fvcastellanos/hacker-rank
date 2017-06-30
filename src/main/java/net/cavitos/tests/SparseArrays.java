@@ -14,21 +14,6 @@ public class SparseArrays {
                 .mapToInt(x -> {
                     return st.equals(x)?1:0;
                 }).sum();
-/*
-        return list.stream()
-                .mapToInt(x -> {
-                    int value = 0;
-                    String str = x;
-                    int index = str.indexOf(st);
-                    while(index > -1) {
-                        str = str.replaceFirst(st, "");
-                        value ++;
-                        index = str.indexOf(st);
-                    }
-
-                    return value;
-                }).sum();
-*/
     }
 
     private static List<Integer> countQueryMatches(List<String> strings, List<String> queries) {
