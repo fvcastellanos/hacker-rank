@@ -15,6 +15,7 @@
 **/*.iws
 .idea
 *.iml
+/.idea/*
 
 # misc
 
